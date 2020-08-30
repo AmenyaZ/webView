@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".ownerinfoFrag"
+    android:id="@+id/ivMake">
+
+    <WebView
+        android:id="@+id/contentWeb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+<!--    <android.support.v7.widget.Toolbar-->
+<!--        android:id="@+id/toolbarId"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="?attr/actionBarSize"-->
+<!--        app:navigationIcon="?attr/homeAsUpIndicator"/>-->
+
+
+    <!--<TextView
+        android:id="@+id/tvChapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal"
+        android:text="Chapter Number"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/tvChapterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal"
+        android:fontFamily="cursive"
+        android:textColor="#FFFFFF"
+        android:text="Chapter Name" />
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:enabled="true"
+        android:textIsSelectable="true"
+        android:focusable="true"
+        android:textColor="#FFFFFF"
+        android:text="Parts and Clauses of The Chapter" />-->
+
+</LinearLayout>
